@@ -37,16 +37,18 @@ Steps
 	```
 	jekyll new my-blog
 	```
+    
     Or go to created site folder.
 6. Start the local server.
 
 	```
-	 jekyll serve -H 0.0.0.0
+	jekyll serve -H 0.0.0.0
 	```
 7. On local machine open a browser and go to 
 
 	```
 	localhost:4000
 	```
+    
     Now you can see your blog.
 8. To finish just press ctrl+c and then type exit.
