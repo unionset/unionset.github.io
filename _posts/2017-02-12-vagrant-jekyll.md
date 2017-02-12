@@ -15,11 +15,15 @@ Steps
 1. Install [Vagrant](https://www.vagrantup.com/downloads.html){:target="_blank"}.
 2. Create Jekyll VM folder and download [vagrant-jekyll](https://github.com/jden123/vagrant-jekyll/){:target="_blank"}.
 3. Start VM and connect.
+
 	```
 	vagrant up
+
 	vagrant ssh
 	```
+
 4. Go to /projects folder.
+
 	```
 	cd /projects/
 	```
@@ -29,15 +33,18 @@ Steps
     
     *NOTE: the mapping can be changed using config.vm.synced_folder in vagrant file.*
 5. Create a new site. 
+
 	```
 	jekyll new my-blog
 	```
     Or go to created site folder.
 6. Start the local server.
+
 	```
 	 jekyll serve -H 0.0.0.0
 	```
 7. On local machine open a browser and go to 
+
 	```
 	localhost:4000
 	```
