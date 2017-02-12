@@ -18,7 +18,6 @@ Steps
 
 	```
 	vagrant up
-
 	vagrant ssh
 	```
 
