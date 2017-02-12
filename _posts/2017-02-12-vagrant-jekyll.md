@@ -18,7 +18,9 @@ Steps
 
 	```
 	vagrant up
-	vagrant ssh
+	```    
+	```
+    vagrant ssh
 	```
 
 4. Go to /projects folder.
