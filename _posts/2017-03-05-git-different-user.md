@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using different Git users for different repositories"
-date:   2017-02-12
+date:   2017-03-05
 categories: git
 ---
 I need to use two different Git users: one is for my private tasks and another is for my customer projects. I set up my own user as a global and have to switch the user when I'm working on customer projects. Unfortunately, often I forgot to do it and make commits under a wrong user that causes the issues and additional work. I looked for a solution and I've found a good article([link](https://orrsella.com/2013/08/10/git-using-different-user-emails-for-different-repositories/){:target="_blank"}).
